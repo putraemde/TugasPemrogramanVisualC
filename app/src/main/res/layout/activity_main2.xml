@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main2Activity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SISTEM INFORMASI MASJID"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="9dp"
+        tools:layout_editor_absoluteY="31dp" />
+
+    <ImageView
+        android:layout_width="407dp"
+        android:layout_height="300dp"
+        android:src="@drawable/masjid2"
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="94dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="INFORMASI"
+        android:textSize="40dp"
+        tools:layout_editor_absoluteX="161dp"
+        tools:layout_editor_absoluteY="444dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:text="KEUANGAN"
+        android:textSize="40dp"
+        tools:layout_editor_absoluteX="20dp"
+        tools:layout_editor_absoluteY="526dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:text="KHOTIB"
+        android:textSize="40dp"
+        tools:layout_editor_absoluteX="161dp"
+        tools:layout_editor_absoluteY="610dp" />
+
+</android.support.constraint.ConstraintLayout>
